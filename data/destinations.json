@@ -1,0 +1,112 @@
+[
+  {
+    "id": "dest-yao-001",
+    "name": "Yaounde",
+    "region": "Centre",
+    "description": "Cameroon's verdant capital in the hills. Explore political landmarks, art galleries, bustling markets, and lush parks.",
+    "tags": ["city", "culture", "museum", "shopping"],
+    "avg_cost_per_day": 30000,
+    "highlights": ["Reunification Monument", "National Museum", "Biyeme Market", "Mount Febe"],
+    "image_url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
+    "image_asset": "yaounde_city.jpg"
+  },
+  {
+    "id": "dest-yao-002",
+    "name": "Reunification Monument",
+    "region": "Centre",
+    "description": "Iconic twin-spired monument celebrating the reunification of Cameroon. A must-see landmark at Constitution Square.",
+    "tags": ["history", "culture", "monument", "landmark"],
+    "avg_cost_per_day": 5000,
+    "highlights": ["Twin spires", "Constitution Square", "Guided tours"],
+    "image_url": "",
+    "image_asset": "yaounde_city.jpg"
+  },
+  {
+    "id": "dest-yao-003",
+    "name": "National Museum",
+    "region": "Centre",
+    "description": "Housed in the former presidential palace, this museum showcases Cameroon's cultural heritage, traditional crafts, and historical artifacts.",
+    "tags": ["museum", "culture", "history", "art"],
+    "avg_cost_per_day": 10000,
+    "highlights": ["Presidential palace history", "Traditional masks", "Artifacts collection"],
+    "image_url": "",
+    "image_asset": "yaounde_city.jpg"
+  },
+  {
+    "id": "dest-yao-004",
+    "name": "Mount Febe",
+    "region": "Centre",
+    "description": "A peaceful hilltop retreat just outside Yaounde with botanical gardens, hiking trails, and panoramic views of the capital.",
+    "tags": ["nature", "hiking", "botanical", "relaxation"],
+    "avg_cost_per_day": 8000,
+    "highlights": ["Botanical gardens", "Hiking trails", "City viewpoints"],
+    "image_url": "",
+    "image_asset": "yaounde_city.jpg"
+  },
+  {
+    "id": "dest-yao-005",
+    "name": "Biyeme Market",
+    "region": "Centre",
+    "description": "One of Yaounde's liveliest markets. Shop for fresh produce, textiles, handmade crafts, and street food flavors.",
+    "tags": ["market", "shopping", "food", "culture"],
+    "avg_cost_per_day": 12000,
+    "highlights": ["Fresh produce", "Textiles", "Street food", "Local crafts"],
+    "image_url": "",
+    "image_asset": "yaounde_city.jpg"
+  },
+  {
+    "id": "dest-yao-006",
+    "name": "Yaounde Grand Mosque",
+    "region": "Centre",
+    "description": "A beautiful example of Islamic architecture in the heart of the capital. Admire the minarets and serene courtyard.",
+    "tags": ["culture", "history", "architecture", "religion"],
+    "avg_cost_per_day": 3000,
+    "highlights": ["Minarets", "Courtyard", "Architecture", "Cultural visits"],
+    "image_url": "",
+    "image_asset": "yaounde_city.jpg"
+  },
+  {
+    "id": "dest-yao-007",
+    "name": "Mvog-Betsi Zoo",
+    "region": "Centre",
+    "description": "A small but charming zoo near Yaounde featuring local wildlife including primates, birds, and reptiles. Great for families.",
+    "tags": ["wildlife", "family", "zoo", "nature"],
+    "avg_cost_per_day": 7000,
+    "highlights": ["Local primates", "Bird sanctuary", "Family-friendly", "Guided walks"],
+    "image_url": "",
+    "image_asset": "yaounde_city.jpg"
+  },
+  {
+    "id": "dest-yao-008",
+    "name": "Bastos District",
+    "region": "Centre",
+    "description": "Upscale neighborhood with embassies, cafes, and restaurants. Experience modern Yaounde life, nightlife, and fine dining.",
+    "tags": ["city", "nightlife", "food", "shopping"],
+    "avg_cost_per_day": 25000,
+    "highlights": ["Embassies", "Cafes", "Fine dining", "Nightlife"],
+    "image_url": "",
+    "image_asset": "yaounde_city.jpg"
+  },
+  {
+    "id": "dest-yao-009",
+    "name": "Memorial Museum",
+    "region": "Centre",
+    "description": "Dedicated to Cameroon's independence heroes and political history. A solemn and educational stop for history buffs.",
+    "tags": ["history", "museum", "culture", "education"],
+    "avg_cost_per_day": 4000,
+    "highlights": ["Independence history", "Heroes memorial", "Educational exhibits"],
+    "image_url": "",
+    "image_asset": "yaounde_city.jpg"
+  },
+  {
+    "id": "dest-yao-010",
+    "name": "Cite Verte Park",
+    "region": "Centre",
+    "description": "A lush green park in the heart of Yaounde. Ideal for morning walks, picnics, and escaping the city buzz.",
+    "tags": ["nature", "park", "relaxation", "family"],
+    "avg_cost_per_day": 2000,
+    "highlights": ["Green spaces", "Walking paths", "Picnic areas", "Family outings"],
+    "image_url": "",
+    "image_asset": "yaounde_city.jpg"
+  }
+]

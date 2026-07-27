@@ -1,0 +1,11 @@
+[
+  {
+    "id": "15d2cb29-d6fd-4ddb-805e-cc20649176cc",
+    "username": "testuser3",
+    "password_hash": "pbkdf2:sha256:600000$qU2KbidefaZPc1bD$c5a48e1d6987be650f2149f9179a5d050f379eac9b34fd2b981a014978f3e3dd",
+    "preferences": [
+      "beach",
+      "culture"
+    ]
+  }
+]
