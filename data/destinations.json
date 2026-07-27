@@ -7,8 +7,8 @@
     "tags": ["city", "culture", "museum", "shopping"],
     "avg_cost_per_day": 30000,
     "highlights": ["Reunification Monument", "National Museum", "Biyeme Market", "Mount Febe"],
-    "image_url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
-    "image_asset": "yaounde_city.jpg"
+    "image_url": "",
+    "image_asset": "reunification monument.avif"
   },
   {
     "id": "dest-yao-002",
@@ -19,7 +19,7 @@
     "avg_cost_per_day": 5000,
     "highlights": ["Twin spires", "Constitution Square", "Guided tours"],
     "image_url": "",
-    "image_asset": "yaounde_city.jpg"
+    "image_asset": "reunification monument.avif"
   },
   {
     "id": "dest-yao-003",
@@ -30,7 +30,7 @@
     "avg_cost_per_day": 10000,
     "highlights": ["Presidential palace history", "Traditional masks", "Artifacts collection"],
     "image_url": "",
-    "image_asset": "yaounde_city.jpg"
+    "image_asset": "i love my country cameroon monument.webp"
   },
   {
     "id": "dest-yao-004",
@@ -41,7 +41,7 @@
     "avg_cost_per_day": 8000,
     "highlights": ["Botanical gardens", "Hiking trails", "City viewpoints"],
     "image_url": "",
-    "image_asset": "yaounde_city.jpg"
+    "image_asset": "parcour vita playground.png"
   },
   {
     "id": "dest-yao-005",
@@ -52,7 +52,7 @@
     "avg_cost_per_day": 12000,
     "highlights": ["Fresh produce", "Textiles", "Street food", "Local crafts"],
     "image_url": "",
-    "image_asset": "yaounde_city.jpg"
+    "image_asset": "mokolo market.webp"
   },
   {
     "id": "dest-yao-006",
@@ -63,7 +63,7 @@
     "avg_cost_per_day": 3000,
     "highlights": ["Minarets", "Courtyard", "Architecture", "Cultural visits"],
     "image_url": "",
-    "image_asset": "yaounde_city.jpg"
+    "image_asset": "city council.webp"
   },
   {
     "id": "dest-yao-007",
@@ -74,7 +74,7 @@
     "avg_cost_per_day": 7000,
     "highlights": ["Local primates", "Bird sanctuary", "Family-friendly", "Guided walks"],
     "image_url": "",
-    "image_asset": "yaounde_city.jpg"
+    "image_asset": "africa deployments.webp"
   },
   {
     "id": "dest-yao-008",
@@ -85,7 +85,7 @@
     "avg_cost_per_day": 25000,
     "highlights": ["Embassies", "Cafes", "Fine dining", "Nightlife"],
     "image_url": "",
-    "image_asset": "yaounde_city.jpg"
+    "image_asset": "waza park.webp"
   },
   {
     "id": "dest-yao-009",
@@ -96,7 +96,7 @@
     "avg_cost_per_day": 4000,
     "highlights": ["Independence history", "Heroes memorial", "Educational exhibits"],
     "image_url": "",
-    "image_asset": "yaounde_city.jpg"
+    "image_asset": "i love my country cameroon monument.webp"
   },
   {
     "id": "dest-yao-010",
@@ -107,6 +107,6 @@
     "avg_cost_per_day": 2000,
     "highlights": ["Green spaces", "Walking paths", "Picnic areas", "Family outings"],
     "image_url": "",
-    "image_asset": "yaounde_city.jpg"
+    "image_asset": "parcour vita playground.png"
   }
 ]
