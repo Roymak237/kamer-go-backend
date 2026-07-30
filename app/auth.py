@@ -101,3 +101,25 @@ def login():
 
     token = create_token(username, current_app.config["SECRET_KEY"])
     return jsonify({"token": token}), 200
+
+
+@auth_bp.route("/api/auth/me", methods=["GET"])
+def me():
+    """Return the current user's profile.
+
+    Requires a valid JWT in the Authorization header.
+    Returns 200 with user data, 401 if unauthenticated.
+    """
+    username = get_current_user(request)
+    if username is None:
+        return jsonify({"error": "authentication required"}), 401
+
+    user = get_user_by_username(username)
+    if user is None:
+        return jsonify({"error": "user not found"}), 404
+
+    return jsonify({
+        "id": user.get("id", ""),
+        "username": user.get("username", ""),
+        "preferences": user.get("preferences", []),
+    }), 200

@@ -42,5 +42,17 @@
     "end_date": "2026-08-15",
     "notes": "Fun day with the kids: zoo in the morning, park picnic at noon, and market snacks in the afternoon.",
     "created_at": "2026-07-23T15:00:00+01:00"
+  },
+  {
+    "id": "3cee2887-a5a1-453a-9386-9a00e8cd50f6",
+    "username": "arise",
+    "title": "sleeping",
+    "destinations": [
+      "Reunification Monument"
+    ],
+    "start_date": "02-23-23",
+    "end_date": "09-05-8",
+    "notes": "nothing",
+    "created_at": "2026-07-28T15:02:39.229886+00:00"
   }
 ]
