@@ -22,10 +22,7 @@ SHARES_FILE = os.path.join(DATA_DIR, "shares.json")
 
 
 def _read_json(filepath: str) -> list:
-    """Read a JSON file and return its contents as a Python list.
-
-    Returns an empty list if the file does not exist or is empty.
-    """
+    """Read *filepath* and return its contents as a list."""
     if not os.path.exists(filepath):
         return []
     with open(filepath, "r", encoding="utf-8") as fh:
@@ -36,7 +33,7 @@ def _read_json(filepath: str) -> list:
 
 
 def _write_json(filepath: str, data: list) -> None:
-    """Serialise *data* and write it to *filepath* (pretty-printed)."""
+    """Serialise *data* and write it to *filepath*."""
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as fh:
         json.dump(data, fh, indent=2)
@@ -60,6 +57,81 @@ def save_user(user: dict) -> None:
     users = get_all_users()
     users.append(user)
     _write_json(USERS_FILE, users)
+
+
+def update_user(username: str, updates: dict) -> dict | None:
+    users = get_all_users()
+    for index, user in enumerate(users):
+        if user.get("username") == username:
+            updated = {**user, **updates}
+            users[index] = updated
+            _write_json(USERS_FILE, users)
+            return updated
+    return None
+
+
+def update_username_references(old_username: str, new_username: str) -> dict | None:
+    """Rename a user and preserve their itinerary/share relationships."""
+    users = get_all_users()
+    user = next(
+        (entry for entry in users if entry.get("username") == old_username),
+        None,
+    )
+    if user is None:
+        return None
+
+    renamed_user = {**user, "username": new_username}
+    users[users.index(user)] = renamed_user
+    _write_json(USERS_FILE, users)
+
+    itineraries = get_all_itineraries()
+    for itinerary in itineraries:
+        if itinerary.get("username") == old_username:
+            itinerary["username"] = new_username
+    _write_json(ITINERARIES_FILE, itineraries)
+
+    shares = get_all_shares()
+    for share in shares:
+        if share.get("owner") == old_username:
+            share["owner"] = new_username
+        if share.get("shared_with") == old_username:
+            share["shared_with"] = new_username
+    _write_json(SHARES_FILE, shares)
+
+    return renamed_user
+
+
+def delete_user_account(username: str) -> bool:
+    """Delete a user and cascade their owned travel data and shares."""
+    users = get_all_users()
+    remaining_users = [user for user in users if user.get("username") != username]
+    if len(remaining_users) == len(users):
+        return False
+    _write_json(USERS_FILE, remaining_users)
+
+    itineraries = get_all_itineraries()
+    deleted_itinerary_ids = {
+        itinerary.get("id")
+        for itinerary in itineraries
+        if itinerary.get("username") == username
+    }
+    remaining_itineraries = [
+        itinerary
+        for itinerary in itineraries
+        if itinerary.get("username") != username
+    ]
+    _write_json(ITINERARIES_FILE, remaining_itineraries)
+
+    shares = get_all_shares()
+    remaining_shares = [
+        share
+        for share in shares
+        if share.get("owner") != username
+        and share.get("shared_with") != username
+        and share.get("itinerary_id") not in deleted_itinerary_ids
+    ]
+    _write_json(SHARES_FILE, remaining_shares)
+    return True
 
 
 # Destination helpers

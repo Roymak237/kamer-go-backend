@@ -8,7 +8,9 @@
     "avg_cost_per_day": 30000,
     "highlights": ["Reunification Monument", "National Museum", "Biyeme Market", "Mount Febe"],
     "image_url": "",
-    "image_asset": "reunification monument.avif"
+    "image_asset": "reunification monument.avif",
+    "latitude": 3.8480,
+    "longitude": 11.5021
   },
   {
     "id": "dest-yao-002",
@@ -19,7 +21,9 @@
     "avg_cost_per_day": 5000,
     "highlights": ["Twin spires", "Constitution Square", "Guided tours"],
     "image_url": "",
-    "image_asset": "reunification monument.avif"
+    "image_asset": "reunification monument.avif",
+    "latitude": 3.8667,
+    "longitude": 11.5167
   },
   {
     "id": "dest-yao-003",
@@ -30,7 +34,9 @@
     "avg_cost_per_day": 10000,
     "highlights": ["Presidential palace history", "Traditional masks", "Artifacts collection"],
     "image_url": "",
-    "image_asset": "i love my country cameroon monument.webp"
+    "image_asset": "i love my country cameroon monument.webp",
+    "latitude": 3.8661,
+    "longitude": 11.5164
   },
   {
     "id": "dest-yao-004",
@@ -41,7 +47,9 @@
     "avg_cost_per_day": 8000,
     "highlights": ["Botanical gardens", "Hiking trails", "City viewpoints"],
     "image_url": "",
-    "image_asset": "parcour vita playground.png"
+    "image_asset": "parcour vita playground.png",
+    "latitude": 3.8990,
+    "longitude": 11.5090
   },
   {
     "id": "dest-yao-005",
@@ -52,7 +60,9 @@
     "avg_cost_per_day": 12000,
     "highlights": ["Fresh produce", "Textiles", "Street food", "Local crafts"],
     "image_url": "",
-    "image_asset": "mokolo market.webp"
+    "image_asset": "mokolo market.webp",
+    "latitude": 3.8330,
+    "longitude": 11.4860
   },
   {
     "id": "dest-yao-006",
@@ -62,8 +72,11 @@
     "tags": ["culture", "history", "architecture", "religion"],
     "avg_cost_per_day": 3000,
     "highlights": ["Minarets", "Courtyard", "Architecture", "Cultural visits"],
-    "image_url": "",
-    "image_asset": "city council.webp"
+    "image_url": "https://images.pexels.com/photos/24509379/pexels-photo-24509379.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image_asset": "",
+    "image_attribution": "Photo by Timon Cornelissen on Pexels",
+    "latitude": 3.8660,
+    "longitude": 11.5220
   },
   {
     "id": "dest-yao-007",
@@ -74,7 +87,9 @@
     "avg_cost_per_day": 7000,
     "highlights": ["Local primates", "Bird sanctuary", "Family-friendly", "Guided walks"],
     "image_url": "",
-    "image_asset": "africa deployments.webp"
+    "image_asset": "africa deployments.webp",
+    "latitude": 3.8230,
+    "longitude": 11.4650
   },
   {
     "id": "dest-yao-008",
@@ -85,7 +100,9 @@
     "avg_cost_per_day": 25000,
     "highlights": ["Embassies", "Cafes", "Fine dining", "Nightlife"],
     "image_url": "",
-    "image_asset": "waza park.webp"
+    "image_asset": "waza park.webp",
+    "latitude": 3.8830,
+    "longitude": 11.5170
   },
   {
     "id": "dest-yao-009",
@@ -96,7 +113,9 @@
     "avg_cost_per_day": 4000,
     "highlights": ["Independence history", "Heroes memorial", "Educational exhibits"],
     "image_url": "",
-    "image_asset": "i love my country cameroon monument.webp"
+    "image_asset": "i love my country cameroon monument.webp",
+    "latitude": 3.8640,
+    "longitude": 11.5130
   },
   {
     "id": "dest-yao-010",
@@ -107,6 +126,8 @@
     "avg_cost_per_day": 2000,
     "highlights": ["Green spaces", "Walking paths", "Picnic areas", "Family outings"],
     "image_url": "",
-    "image_asset": "parcour vita playground.png"
+    "image_asset": "parcour vita playground.png",
+    "latitude": 3.8770,
+    "longitude": 11.4840
   }
 ]
