@@ -30,4 +30,9 @@ def create_app():
     app.register_blueprint(itineraries_bp)
     app.register_blueprint(shares_bp)
 
+    @app.get("/healthz")
+    def healthz():
+        """Lightweight liveness probe used by Docker and the reverse proxy."""
+        return {"status": "ok"}, 200
+
     return app
